@@ -480,3 +480,33 @@ class SignUpActivity : AppCompatActivity() {
     </LinearLayout>
 </LinearLayout>
 ```
+
+### drawable/background_button.xml
+selector 이용, 클릭 시 색깔
+
+```kotlin
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/clicked"/>
+
+    <item android:state_pressed="false"
+        android:drawable="@drawable/unclicked" >
+    </item>
+</selector>
+```
+
+### drawable/background_icon.xml
+selector 이용, 클릭 시 아이콘
+
+```kotlin
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/close_icon"/>
+
+    <item android:state_pressed="false"
+        android:drawable="@drawable/btn_icon" >
+    </item>
+</selector>
+```
