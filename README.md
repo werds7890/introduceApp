@@ -1,6 +1,6 @@
 # introduceApp
 
+https://github.com/werds7890/introduceApp/assets/81506621/e5d80884-2617-4ba5-ab4b-ec0878476d89
 
 
-https://github.com/werds7890/introduceApp/assets/81506621/f22601ea-c0ee-4d31-a003-cc4604215a62
 
