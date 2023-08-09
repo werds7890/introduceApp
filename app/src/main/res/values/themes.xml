@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Login" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blueBold</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.Login" parent="Base.Theme.Login" />
+
+    <style name="textview">
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/hobbang</item>
+    </style>
+
+    <style name="basic">
+        <item name="android:fontFamily">@font/hobbang</item>
+    </style>
+
+    <style name="btn">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/hobbang</item>
+    </style>
+
+    <style name="hometextview">
+        <item name="android:textSize">25dp</item>
+        <item name="android:fontFamily">@font/hobbang</item>
+    </style>
+
+</resources>
